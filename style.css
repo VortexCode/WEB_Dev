@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Armata';
+  background-color: #000104;
+  color: #FFF;
+}
+
+.menu {
+  background-color: #F7006B;
+  width: 16%;
+  height: 30px;
+  margin-top: 2%;
+  float: left;
+  margin-left: 42.5%;
+}
+
+.menu a {
+   text-decoration: none;
+   color: #FFF;
+   padding: 1.5% 3%;
+   margin-left: 4.5%;
+   float: left;
+   -webkit-transition: all 2000ms ;
+   -moz-transition: all 2000ms ;
+   -ms-transition: all 2000ms ;
+   -o-transition: all 2000ms ;
+   transition: all 2000ms ;
+   
+}
+
+.menu a:hover {
+   background-color: #FC8BBE;
+}
+
+#con {
+   width: 70%;
+   height: auto;
+   float: left;
+   margin-left: 15%;
+}
+
+#side {
+   width: 23.3%;
+   height: auto;
+   float: left;
+   margin-left: 15%;
+}
+
+#footer {
+   width: 90%;
+   height: auto;
+   float: left;
+}
