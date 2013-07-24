@@ -9,9 +9,11 @@ body {
   background-color: #F7006B;
   width: 16%;
   height: 30px;
-  margin-top: 2%;
+  margin-top: 0%;
   float: left;
   margin-left: 42.5%;
+  border-radius: 0px 0px 4px 4px;
+  position: fixed;
 }
 
 .menu a {
@@ -37,17 +39,103 @@ body {
    height: auto;
    float: left;
    margin-left: 15%;
+   margin-top: 5%;
+   background-color: #AE004B;
+   border-radius: 4px;
+}
+
+#con-title, #con-txt {
+   color: #000;
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+#con-desc {
+   margin-left: 2%;
+}
+
+#con-txt {
+   line-height: 30px;
 }
 
 #side {
-   width: 23.3%;
+   width: 21.3%;
    height: auto;
    float: left;
    margin-left: 15%;
+   margin-top: 5%;
+   background-color: #A0F334;
+   border-radius: 4px;
+}
+
+#side-1 , #side-2 {
+   width: 21.3%;
+   height: auto;
+   float: left;
+   margin-left: 3%;
+   background-color: #A0F334;
+   border-radius: 4px;
+   margin-top: 5%;
+}
+
+#side-title, #side-txt {
+   margin-left: 4%;
+   margin-right: 2%;
+   color: #000000;
+}
+
+#side-desc {
+   margin-left: 4%;
+   margin-right: 2%;
+   color: #7F7F7F;
 }
 
 #footer {
-   width: 90%;
-   height: auto;
+   width: 70%;
+   height: 5%;
    float: left;
+   margin-left: 15%;
+   background-color: #888888;
+   margin-top: 5%;
 }
+
+#footer-txt {
+   margin-left: 2%;
+}
+
+.soc-1 {
+   width: 2%;
+   height: 10.5%;
+   float: left;
+   background-color: #F7006B;
+   margin-left: 2%;
+   border-radius: 50%;
+}
+
+.soc-1 p{
+   padding: 10%;
+   margin: 0 0 0 30%;
+}
+
+.soc-1:hover {
+   background-color: #3B5998;
+}
+
+.soc-2 {
+   width: 2%;
+   height: 10.5%;
+   float: left;
+   background-color: #F7006B;
+   margin-left: 2%;
+   border-radius: 50%;
+}
+
+.soc-2 p{
+   padding: 30%;
+   margin: 0 0 0 0%;
+}
+
+.soc-2:hover {
+   background-color: #3B5998;
+}
+
